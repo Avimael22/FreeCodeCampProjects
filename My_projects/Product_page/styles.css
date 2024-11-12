@@ -1,0 +1,138 @@
+:root{
+    --medium-gray: #182B31;
+    --blue-gray: #1E3A31;
+    --light-gray: #58717D;
+    --dark: #0A0E14;
+    --gray1: #CACBCD;
+    --gray2: #B3B9C1;
+    --gray3: #8D9196;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 10vh;
+    padding-top: 2vh;
+}
+#navigation{
+    width: 50vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 25px;
+    margin-left: 50vw;
+}
+#navigation a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+#navigation a:hover{
+    background-color: linen;
+    color: black;
+    display: inline;
+}
+#guest-room{
+    background-image: url("https://i.pinimg.com/564x/9b/3d/4e/9b3d4ee904c66309fd059b8e22dcccfc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center 25%;
+    width: 100vw;
+    height: 90vh;
+    padding-top: 15vh;
+    padding-left: 5vw;
+}
+.title-container{
+    width: 45vw;
+    height: 45vh;
+    color: black;
+}
+.title-container h1{
+    font-size: 75px;
+}
+.title-container p{
+    font-style: "EB Garamond", sans-serif;
+    font-size: 22px;
+    margin-top: 15px;
+}
+button{
+    width: 12vw;
+    height: 4vh;
+    margin-top: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: var(--medium-gray);
+    color: white;
+}
+button:hover{
+    background-color: var(--light-gray);
+}
+.action{
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.content{
+    display: inline;
+    padding-top: 2vh;
+}
+.hours{
+    background-color: var(--gray1);
+}
+.location{
+    background-color: var(--gray2);
+}
+.support{
+    background-color: var(--gray3);
+}
+.icon{
+    float: left;
+    margin-right: 10px;
+    background-color: black;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+}
+#room-types{
+    background-image: url("https://i.pinimg.com/564x/bf/3d/fa/bf3dfae4890f2b3b510be96302b70fb6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    padding-top: 20vh;
+    padding-left: 8vw;
+    color: white;
+    text-align: bottom;
+}
+.room-container{
+    width: 90vw;
+    height: 67vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3vw;
+    margin-top: 6vh;
+}
+.room-container figure{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--light-gray);
+}
+.type{
+    width: 100%;
+    height: 60%;
+}
