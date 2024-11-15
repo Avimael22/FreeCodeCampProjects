@@ -278,7 +278,13 @@ figcaption hr{
     font-size: 25px;
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 478px){
+    body{
+        margin: 0;
+    }
+    main{
+        width: 100vw;
+    }
     header{
         position: fixed;
         top: 0;
