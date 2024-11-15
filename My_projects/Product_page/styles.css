@@ -277,3 +277,80 @@ figcaption hr{
     margin-top: 40px;
     font-size: 25px;
 }
+
+@media only screen and (max-width: 430px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100vw;
+        height: 10vh;
+        padding-top: 2vh;
+    }
+    #navigation{
+        width: 100vw;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-size: 3vw;
+        margin-left: 0;
+    }
+    #navigation a{
+        text-decoration: none;
+        color: white;
+        display: inline;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    #navigation a:hover{
+        background-color: linen;
+        color: black;
+        display: inline;
+    }
+    #guest-room{
+        padding-top: 20vh;
+    }
+    .title-container{
+        width: 80vw;
+        height: 45vh;
+        color: black;
+        margin-left: 10vw;
+    }
+    .title-container h1{
+        font-size: 10vw;
+    }
+    .title-container p{
+        font-style: "EB Garamond", sans-serif;
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    button{
+        width: 30vw;
+        height: 4vh;
+        margin-top: 35px;
+        font-size: 3vw;
+        border-radius: 5px;
+        background-color: var(--medium-gray);
+        color: white;
+    }
+    button:hover{
+        background-color: var(--light-gray);
+    }
+    .action{
+        height: 5vh;
+    }
+    .action h3{
+        font-size: 3vw;
+    }
+    .action p{
+        font-size: 2vw;
+    }
+    .content{
+        display: inline;
+        padding-top: 0.75vh;
+        padding-bottom: 0.75vh;
+    }
+}
