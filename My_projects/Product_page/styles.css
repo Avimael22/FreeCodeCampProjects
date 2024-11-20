@@ -58,11 +58,11 @@ header{
     color: black;
 }
 .title-container h1{
-    font-size: 75px;
+    font-size: 8vh;
 }
 .title-container p{
     font-style: "EB Garamond", sans-serif;
-    font-size: 22px;
+    font-size: 3vh;
     margin-top: 15px;
 }
 button{
@@ -142,12 +142,12 @@ figcaption{
 }
 figcaption span{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 2vh;
 }
 span.description{
     display: block;
     margin-top: 22px;
-    font-size: 18px;
+    font-size: 1.5vh;
     font-weight: normal;
 }
 figcaption a{
@@ -175,23 +175,23 @@ figcaption hr{
     height: 100vh;
     background-color: var(--dark);
     color: white;
-    padding-top: 22vh;
+    padding-top: 18vh;
     padding-left: 5vw;
     padding-right: 2vw;
     text-align: left;
 }
 #ammenities h1{
-    font-size: 55px;
+    font-size: 6vh;
 }
 .ammenity-container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .hotel-ammenity{
     display: grid;
-    width: 50vw;
-    height: 70vh;
+    width: 100vw;
+    height: 40vh;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
 
@@ -209,9 +209,9 @@ figcaption hr{
     border-radius: 10px;
 }
 .ammenity-description{
-    display: inline;
-    width: 40vw;
-    height: 70vh;
+    display: block;
+    width: 100vw;
+    height: 30vh;
     padding-top: 5%;
 
 }
@@ -278,7 +278,7 @@ figcaption hr{
     font-size: 25px;
 }
 
-@media only screen and (max-width: 478px){
+@media only screen and (max-width: 1092px){
     body{
         margin: 0;
     }
@@ -358,5 +358,33 @@ figcaption hr{
         display: inline;
         padding-top: 0.75vh;
         padding-bottom: 0.75vh;
+    }
+    .room-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .room-container figure:nth-of-type(3){
+        display: none;
+    }
+    .hotel-ammenity{
+        display: block;
+    }
+    .tour{
+        display: inline;
+        width: 100%;
+    }
+    .ammenity-description{
+        display: block;
+        padding-top: 1%;
+        padding-left: 1vw;
+    }
+    .ammenity-description h2{
+        font-size: 3vh;
+    }
+    #ammenities h1{
+        font-size: 4vh;
+    }
+    .ammenity-description a{
+        width: 30vw;
+        height: 3.5vh;
     }
 }
