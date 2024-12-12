@@ -1,0 +1,102 @@
+:root{
+    --teal: #074047;
+    --light-green: #1dA27E;
+    --light-gray: #FFF;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navigation-links{
+    position: fixed;
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5em;
+    padding: 2vh;
+    font-family: Ubuntu;
+}
+.navigation-links a:visited{
+    color: inherit;
+}
+#earphone{
+    background-color: var(--light-gray);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.content{
+    width: 45vw;
+    height: fit-content;
+    position: relative;
+    left: 5vw;
+    top: 30vh;
+    font-size: 16px;
+}
+.content h1{
+    font-size: 2.5em;
+    letter-spacing: 4px;
+}
+.content span{
+    font-size: 2.7em;
+}
+.content p{
+    font-size: 1.5em;
+}
+.button{
+    margin-top: 0.8em;
+    background-color: var(--teal);
+    color: white;
+    font-size: 1.6em;
+    font-style: serif;
+    padding: 3px;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+}
+.button a:visited{
+    color: inherit;
+}
+.button:hover{
+    background-color: var(--light-green);
+}
+
+.headphone{
+    display: block;
+    position: relative;
+    left: 60vw;
+    top: -2vh;
+    height: 45vh;
+}
+.social-media{
+    position: relative;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: fit-content;
+}
+.social-media div{
+    width: 25vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.icon-right{
+    margin-left: 60vw;
+}
+.social-media span{
+    margin-right: 5vw;
+}

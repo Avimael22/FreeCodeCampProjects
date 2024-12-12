@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navigation-links{
+    width: 60vw;
+    height: fit-content;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 20vw;
+    right: 20vw;
+    padding: 10px;
+    color: white;
+    font-family: "Permanent Marker", serif;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+}
+.navigation-links a{
+    text-decoration: none;
+    color: white;
+}
+.navigation-links a:visited{
+    color: inherit;
+}
+.material-icons { 
+    font-size: 30px; 
+    color: white;
+
+}
+.hero-section{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+}
+#airpod-dark{
+    width: 45vw;
+    height: 60vh;
+    position: relative;
+    top: 15vh;
+    left: 54vw;
+}
+.hero-section div{
+    position: relative;
+    top: -3vh;
+    left: 2vw;
+    font-family: "Permanent Marker", cursive;
+    color: linen;
+    height: fit-content;
+    width: 50vw;
+}
+.hero-section h2{
+    font-size: 2.3rem;
+}
+.hero-section h1{
+    font-size: 5.2rem;
+}
