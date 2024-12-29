@@ -130,5 +130,26 @@ body{
         color:blue;
 
     }
-   
+   .cell-box form{
+    width: 100%;
+
+   }
+   .input-container input{
+    display: inline;
+   }
+   .submit-button{
+    background-color: #0000ff;
+    color: #fff;
+   }
+   .forward-arrow{
+    vertical-align: middle;
+    font-size: 15px;
+   }
+   .link-container{
+    margin-top: 20px;
+   }
+   .selector{
+    display: inline-block;
+    
+   }
 }
