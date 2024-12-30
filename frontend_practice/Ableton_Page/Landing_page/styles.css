@@ -32,6 +32,9 @@ body{
     width: 16vw;
     height: 6vh;
 }
+article{
+    height: 100vh;
+}
 @media only screen and (min-width: 350px){
 
     .nav-link{
