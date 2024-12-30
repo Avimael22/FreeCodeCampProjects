@@ -61,7 +61,7 @@ body{
     }
     .article{
         width: 100vw;
-        height: auto;
+        height: 50vh;
         background-image: url("https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
         background-repeat: no-repeat;
         background-size: cover;
@@ -171,6 +171,9 @@ body{
    }
 }
 @media only screen and (min-width: 576px){
+    .article{
+        height: 50vh;
+    }
     .cell-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
