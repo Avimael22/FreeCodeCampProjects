@@ -53,6 +53,7 @@ body{
         background-color: #fff;
         font-size: 3vh;
         border: none;
+        color: #000;
     }
     .drop-down-icon{
         font-size: 3vh;
@@ -150,6 +151,65 @@ body{
    }
    .selector{
     display: inline-block;
-    
+
    }
+   .contact a{
+    text-decoration: none;
+    color: #000;
+    line-height: 1.6em;
+   }
+   .main-footer-secondary-signature{
+    display: flex;
+    align-items: center;
+    padding-top: 8.333vw;
+    width: 100%;
+    text-align: left;
+   }
+   .main-footer-secondary-signature .logo-pic{
+    width: 16vw;
+    height: 6vh;
+   }
+}
+@media only screen and (min-width: 576px){
+    .cell-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .cell{
+        width: 100%;
+        max-width: 700px;
+        padding-top: 15px;
+        height: fit-content;
+    }
+    .item-0{
+        grid-row: 1/2;
+        grid-column: 1/ span 2;
+        padding: 0;
+        vertical-align: middle;
+        height: 16px;
+    }
+    .item-1{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .item-2{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .item-3{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .item-4{
+        grid-row: 3/4;
+        grid-column: 2/3;
+        vertical-align: middle;
+    }
+    footer .cell-container{
+        display: block;
+    }
+    
 }
