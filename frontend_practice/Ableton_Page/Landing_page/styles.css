@@ -215,3 +215,83 @@ article{
     }
     
 }
+@media only screen and (min-width: 1024px){
+    .nav-link{
+        display: inline;
+        margin-right: 5vw;
+        text-decoration: none;
+        font-size: 1.4rem;
+        color: #000;
+    }
+    .menu-dropdown{
+        display: none;
+    }
+    .article h1{
+        font-size: 4.3rem;
+    }
+    .article p{
+        font-size: 2.1rem;
+    }
+    .article span{
+        font-size: 1.5rem;
+    }
+    .cell-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+        width: 90%; 
+        left: 5%;
+    }
+    .cell-container h2{
+        font-size: 2.3rem;
+        
+    }
+    .cell video{
+        height: 30vh;
+    }
+    .cell .ideas-img{
+        height: 30vh;
+    }
+    button{
+        height: 3vh;
+        width: 20vw;
+    }
+    .item-0{
+        grid-row: 1/2;
+        grid-column: 1/ span 3;
+        padding: 0;
+        vertical-align: middle;
+        height: 16px;
+        text-align: center;
+    }
+    .cell{
+        height: fit-content;
+        text-align: center;
+    }
+    .item-1{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .item-2{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .item-3{
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    .item-4{
+        grid-row: 3/4;
+        grid-column: 2/3;
+        vertical-align: middle;
+    }
+    input.email{
+        width: 20vw;
+        height: 4vh;
+    }
+    footer{
+        font-size: 1.5rem;
+    }
+}
