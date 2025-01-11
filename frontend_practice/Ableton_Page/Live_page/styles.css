@@ -159,11 +159,25 @@ main{
     .indented p{
         font-size: 1.2rem;
         line-height: 3.2vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .indented img{
         width: 100%;
     }
     .medium{
         background-color: var(--medium-gray);
+    }
+    .button{
+        width: 90%;
+        border: 2px solid blue;
+        background-color: #fff;
+        font-size: 2.6vh;
+        height: auto;
+        padding: 5px;
+    }
+    .elongated{
+        width: 100%;
+        height: 45vh;
     }
 }
