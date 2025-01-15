@@ -63,7 +63,7 @@ main{
         height: 3.5vh;
         vertical-align: middle;
     }
-    .button{
+    .menu-dropdown .button{
         height: 4vh;
         border: none;
         border-radius: 5px;
@@ -135,11 +135,14 @@ main{
     #video{
         width: 100%;
         height: 30vh;
+
     }
-    #video video{
+    #video video, img{
         width: 100%;
+        margin-bottom: 10px;
     }
     .indented{
+        margin-top: 7vh;
         margin-bottom: 4vh;
         padding-bottom: 3vh;
     }
@@ -179,5 +182,59 @@ main{
     .elongated{
         width: 100%;
         height: 45vh;
+    }
+    .purple{
+        background-color: var(--pale-purple);
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    #see-all{
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    footer .indented{
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+        padding-bottom: 3vh;
+    }
+    #email{
+        width: 70%;
+    }
+    footer .indented p{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    footer button{
+        background-color: var(--bright-blue);
+        color: #fff;
+    }
+    footer li{
+        display: inline;
+        margin-left: 0;
+    }
+    .platforms ul{
+        padding: 0;
+        margin: 0;
+    }
+    .icon img{
+        width: 6vh;
+        height: 5vh;
+    }
+    #language, #location{
+        background-color: var(--medium-gray);
+        display: block;
+    }
+    #location{
+        width: 60%;
+    }
+    footer .logo{
+        display: flex;
+        align-items: center;
+        height: 78px;
+    }
+    footer .logo-pic{
+        width: 15vw;
+        height: 46px;
+        margin-right: 15px;
     }
 }
