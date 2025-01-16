@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Ysabeau+SC|Noto+Serif|Archivo+Black">
     <title>What's new in live 12 | Ableton</title>
 </head>
 <body>
@@ -32,7 +34,7 @@
     </header>
     <main>
         <section class="live-hero">
-            <h1>Find <span id="insert"></span> again and again in Ableton Live</h1>
+            <h1 id="title">Find <span id="insert"></span> again and again in Ableton Live</h1>
             <button>Buy Now</button>
         </section>
         <div class="content-container">
@@ -52,7 +54,7 @@
                             <video>
                                 <source src="https://videos.pexels.com/video-files/3134599/3134599-hd_1920_1080_24fps.mp4">
                             </video>
-                            <p class="indented">A look at some of the highlights of live 12.</p>
+                            <p style="text-align: left;">A look at some of the highlights of live 12.</p>
                         </div>
                     </div>
                     <div class="content">
@@ -95,15 +97,17 @@
                         <p>Conjure up melodies, chords and rhythms with the help of new MIDI generators. Set constraints and let your chosen generator create playful and original ideas for you to develop and turn into your own.</p>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="indented">
-                        <img src="https://images.pexels.com/photos/3784221/pexels-photo-3784221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="grid-container">
+                    <div class="content cell-1">
+                        <div class="indented">
+                            <img src="https://images.pexels.com/photos/3784221/pexels-photo-3784221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h3>Do more with Max for Live</h3>
-                        <p>Try out additional Max for Live Transformations and Generartors that give you deeper way of working with MIDI, or go even further by building new ones.</p>
+                    <div class="content cell-2">
+                        <div class="indented">
+                            <h3>Do more with Max for Live</h3>
+                            <p>Try out additional Max for Live Transformations and Generartors that give you deeper way of working with MIDI, or go even further by building new ones.</p>
+                        </div>
                     </div>
                 </div>
                 <div id="video">
@@ -131,26 +135,28 @@
                         <p>Transform or generate ideas within the confines of the selected scale, or sync the scale of MIDI devices and instruments to the clip being played.</p>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="indented">
-                        <img src="https://images.pexels.com/photos/159376/turntable-top-view-audio-equipment-159376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="grid-container">
+                    <div class="content cell-1">
+                        <div class="indented">
+                            <img src="https://images.pexels.com/photos/159376/turntable-top-view-audio-equipment-159376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h3>Edit MIDI more easily</h3>
-                        <p>Use keyboard and mouse operations to edit MIDI in new ways. Split a note in two or chop it into several parts. Select a set of notes and join them together, or make them fill a selected time range.  Plus, you can access to more notes from the notes utilities panel on the left, such as fit to scale, Humanize, Add Intervals and more. </p>
+                    <div class="content cell-2">
+                        <div class="indented">
+                            <h3>Edit MIDI more easily</h3>
+                            <p>Use keyboard and mouse operations to edit MIDI in new ways. Split a note in two or chop it into several parts. Select a set of notes and join them together, or make them fill a selected time range.  Plus, you can access to more notes from the notes utilities panel on the left, such as fit to scale, Humanize, Add Intervals and more. </p>
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <img src="https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Live 12">
+                    <div class="content cell-3">
+                        <div class="indented">
+                            <img src="https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Live 12">
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h3>Modulate more flexibility</h3>
-                        <p>Stay in control of a parameter, even after its been mapped to a modulation source; Max for live devices like LFO, shaper and envelope follower now let you freely adjust a destination that's being modulated.</p>
+                    <div class="content cell-4">
+                        <div class="indented">
+                            <h3>Modulate more flexibility</h3>
+                            <p>Stay in control of a parameter, even after its been mapped to a modulation source; Max for live devices like LFO, shaper and envelope follower now let you freely adjust a destination that's being modulated.</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -229,52 +235,54 @@
                         </button>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="indented">
-                        <h2>Lost and Found</h2>
-                        <img src="https://images.pexels.com/photos/7715635/pexels-photo-7715635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="random pic" class="elongated">
-                        <p>Lost and found brings together multi-sampled instruments, Drum Racks and samples inspired by undexpected sound sources of the everyday - from household objects, DIY instruments, and flea market finds to the organic materials and natural elements that surround us.</p>
-                        <a>Go to the lost and found pack package ></a>
+                <div class="grid-container">
+                    <div class="content cell-1">
+                        <div class="indented">
+                            <h2>Lost and Found</h2>
+                            <img src="https://images.pexels.com/photos/7715635/pexels-photo-7715635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="random pic" class="elongated">
+                            <p>Lost and found brings together multi-sampled instruments, Drum Racks and samples inspired by undexpected sound sources of the everyday - from household objects, DIY instruments, and flea market finds to the organic materials and natural elements that surround us.</p>
+                            <a>Go to the lost and found pack package ></a>
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h2>Performance Pack</h2>
-                        <img src="https://images.pexels.com/photos/27141304/pexels-photo-27141304/free-photo-of-a-digital-clock-and-a-digital-timer-on-a-black-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sound equalizing">
-                        <p>Perform live more freely with four Max for live devices from iftah. Control any part of live with advanced macros. Capture and re-deploy snapshots of your set, instantly deploy your location in Arrangement view, and pre-arrange a song with clips tht live fills as you perform.</p>
-                        <a>Go to the performance pack package ></a>
+                    <div class="content cell-2">
+                        <div class="indented">
+                            <h2>Performance Pack</h2>
+                            <img src="https://images.pexels.com/photos/27141304/pexels-photo-27141304/free-photo-of-a-digital-clock-and-a-digital-timer-on-a-black-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sound equalizing">
+                            <p>Perform live more freely with four Max for live devices from iftah. Control any part of live with advanced macros. Capture and re-deploy snapshots of your set, instantly deploy your location in Arrangement view, and pre-arrange a song with clips tht live fills as you perform.</p>
+                            <a>Go to the performance pack package ></a>
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h2>Golden Era Hip Hop Drums</h2>
-                        <img src="https://images.pexels.com/photos/7887182/pexels-photo-7887182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="modern drums">
-                        <p>Explore the gritty drums of old-school hiphop with the new beat focused pack from heavy weight producer sound oracle. Get your hands on warm authentic-sounding kits with built-in effects and enhanced MPE functionality created especially for live 12 </p>
-                        <a>Go to the golden era Drum's Pack package ></a>
+                    <div class="content cell-3">
+                        <div class="indented">
+                            <h2>Golden Era Hip Hop Drums</h2>
+                            <img src="https://images.pexels.com/photos/7887182/pexels-photo-7887182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="modern drums">
+                            <p>Explore the gritty drums of old-school hiphop with the new beat focused pack from heavy weight producer sound oracle. Get your hands on warm authentic-sounding kits with built-in effects and enhanced MPE functionality created especially for live 12 </p>
+                            <a>Go to the golden era Drum's Pack package ></a>
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h2>Trap Drums</h2>
-                        <img src="https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Drums">
-                        <p>Sound oracle puts the creative power of his in-demand trap beats at your disposal with a pack of 20 crisp, futuristic kits and clips made for live 12, loaded with MPE functionality for added expressive control.</p>
-                        <a>Go to the trap drums pack package ></a>
+                    <div class="content cell-4">
+                        <div class="indented">
+                            <h2>Trap Drums</h2>
+                            <img src="https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Drums">
+                            <p>Sound oracle puts the creative power of his in-demand trap beats at your disposal with a pack of 20 crisp, futuristic kits and clips made for live 12, loaded with MPE functionality for added expressive control.</p>
+                            <a>Go to the trap drums pack package ></a>
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h2>Sequencers</h2>
-                        <img src="https://images.pexels.com/photos/3469712/pexels-photo-3469712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sequencer">
-                        <p>Whether you want precise control over complex patterns or ways to generate new ideas, this pack of Max for live sequencers will open up all kinds of possibilities in your music making.</p>
-                        <a>Go to the Sequencers Pack Package ></a>
+                    <div class="content cell-5">
+                        <div class="indented">
+                            <h2>Sequencers</h2>
+                            <img src="https://images.pexels.com/photos/3469712/pexels-photo-3469712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sequencer">
+                            <p>Whether you want precise control over complex patterns or ways to generate new ideas, this pack of Max for live sequencers will open up all kinds of possibilities in your music making.</p>
+                            <a>Go to the Sequencers Pack Package ></a>
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <div class="indented">
-                        <h2>MIDI tools</h2>
-                        <img src="https://images.pexels.com/photos/17402641/pexels-photo-17402641/free-photo-of-ligths-over-vintage-console.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="midi tool">
-                        <p>Discover exciting ways to generate new patterns and manipulate your existing sequences with a pack that demonstrates the potential of Live 12's MIDI tools.</p>
-                        <a>Go to the MIDI tools Pack Package.</a>
+                    <div class="content cell-6">
+                        <div class="indented">
+                            <h2>MIDI tools</h2>
+                            <img src="https://images.pexels.com/photos/17402641/pexels-photo-17402641/free-photo-of-ligths-over-vintage-console.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="midi tool">
+                            <p>Discover exciting ways to generate new patterns and manipulate your existing sequences with a pack that demonstrates the potential of Live 12's MIDI tools.</p>
+                            <a>Go to the MIDI tools Pack Package.</a>
+                        </div>
                     </div>
                 </div>
             </section>
