@@ -78,6 +78,7 @@
     .video-container{
         width: 100vw;
         height: 70vh;
+        background-color: #000;
     }
     .background-vid{
         width: 100%;
@@ -171,5 +172,32 @@
         color: #000;
         font-size: 18px;
         font-family: "Open Sans", sans-serif;
+    }
+    .gray-content{
+        background-color: #ccc;
+        color: #000;
+        padding-bottom: 20px;
+    }
+    .indented a{
+        text-decoration: none;
+        color: blue;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        border: 1px solid black;
+    }
+    .flex-container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .flex-container img{
+        width: 25%;
+        height: 25%;
+        margin-right: 10px;
+        
+    }
+    .flex-container p{
+        font-size: 16px;
     }
 }
