@@ -400,9 +400,11 @@ html{
     .content-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
         row-gap: 10px;
         column-gap: 20px;
+        grid-auto-flow: row;
+        align-items: flex-start;
     }
     .cell-1{
         grid-column: 1/3;
@@ -410,5 +412,198 @@ html{
     }
     .indented video{
         height: 100%;
+    }
+    .youtube-vid{
+        height: 485px;
+    }
+    .purple-content .cell-3{
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    .purple-content .cell-4{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .purple-content .cell-5{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .purple-content .cell-6{
+        grid-column: 2/3;
+        grid-row: 4/6;
+    }
+    .purple-content .cell-7{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .purple-content .cell-8{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .purple-content .cell-9{
+        grid-column: 2/3;
+        grid-row: 6/8;
+    }
+    .purple-content .cell-10{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .purple-content .cell-11{
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+    .purple-content .cell-12{
+        grid-column: 2/3;
+        grid-row: 8/10;
+    }
+    .purple-content .cell-13{
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+    .purple-content .cell-14{
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+    .purple-content .cell-15{
+        grid-column: 2/3;
+        grid-row: 10/12;
+    }
+    .purple-content .cell-16{
+        grid-column: 1/2;
+        grid-row: 11/12;
+    }
+    .indented{
+        margin:0;
+    }
+    .indented video{
+        height: 100%;
+    }
+    .light-content .cell-1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .light-content .cell-2{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .light-content .cell-3{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .light-content .cell-4{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .light-content .cell-5{
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+    .light-content .cell-6{
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+    .gray-content .cell-1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .gray-content .cell-2{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .gray-content .cell-3{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .gray-content .cell-4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        padding-bottom: 65px;
+    }
+    .gray-content .cell-5{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        padding-top: 65px;
+    }
+    .gray-content .cell-6{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        padding-bottom: 65px;
+    }
+    .gray-content .cell-7{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        padding-top: 65px;
+    }
+    .flex-container{
+        display: none;
+    }
+    .light-purple-content .cell-1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .light-purple-content .cell-2{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .container-top-padding{
+        width: 100vw;
+        padding-top: 10px;
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+        padding-bottom: 25px;
+        scroll-padding-left: 59px;
+        scroll-padding-right: 29px;
+        scroll-snap-type: x mandatory;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        padding-inline-start: 59px;
+    }
+    .item-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: end;
+        column-gap: 69px;
+        padding-left: 69px;
+        padding-right: 69px;
+        text-size-adjust: 100%;
+        row-gap: 29px;
+        width: 1020px;
+    }
+    .item-content{
+        display: flex;
+        flex-direction: column;
+        line-height: 27px;
+        scroll-snap-align: start;
+}
+    .image-container{
+        display: block;
+        padding-bottom: 20px;
+        position: relative;
+        width: 406px;
+        overflow-y: hidden;
+}
+    div.price{
+        margin-top: 25px;
+    }
+    div.price-2{
+        margin-top: 79px;
+    }
+    .purple2 .cell-1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .purple2 .cell-2{
+        grid-column: 1/3;
+        grid-row: 2/3;
+
+    }
+    .purple2 .cell-3{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    footer .content-container{
+        display: block;
     }
 }
