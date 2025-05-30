@@ -1,0 +1,162 @@
+:root{
+    --primary-color: rgb(234, 250, 241);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.curtain-slide-menu{
+    display: none;
+}
+header{
+    display: block;
+    width: 100vw;
+    height: 10vh;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+
+}
+.mobile-navigation div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger-menu{
+    color: rgb(0, 173, 106);
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.left-and-right-padding{
+    padding: 0 20px;
+    background-color: rgb(234, 250, 241);
+}
+.heading-and-p-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.heading-and-p-container h1{
+    font-size: 3rem;
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+}
+.heading-and-p-container p{
+    font-size: 1.2rem;
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.container{
+    padding: 0 10px;
+    background-color: rgb(234, 250, 241);
+}
+.container h2, .heading{
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    font-size: 1.2rem;
+    color: rgb(0, 173, 106);
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+.container ul{
+    margin-left: 32px;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+.container ul li{
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    color: rgb(70, 73, 71);
+    display: list-item;
+    line-height: 1.5;
+}
+.container p{
+    color: rgb(70, 73, 71);
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.get-now{
+    color: rgb(70, 73, 71);
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    
+}
+.blockbanner{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(0, 173, 106);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    font-size: 1.1rem;
+}
+.lgflex-links{
+    text-decoration: none;
+}
+.overflow-hidden{
+    border: 1px solid rgb(0, 173, 106);
+    border-radius: 10px;
+}
+.small-business-plan{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2.2rem;
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    color: rgb(0, 173, 106);
+}
+.dollars-per-month{
+    font-size: 1.2rem;
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 15px 0 15px;
+}
+.uppercase{
+    color: rgba(0,0,0.3);
+    text-decoration: uppercase;
+    font-weight: bold;
+    padding: 32px 13px 13px 13px;
+    letter-spacing: 1px;
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+}
+.p4{
+    padding: 10px 10px;
+}
+.sign-up-button{
+    background-color: rgb(31, 227, 116);
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(70, 73, 81);
+    font-weight: bold;
+}
+.greyborder{
+    border: 1px solid rgb(214, 218, 249);
+    margin-top: 32px;
+}
+.complex-business{
+    background-color: rgb(242, 243, 243);
+    padding: 20px 10px;
+    border-bottom: 1px solid rgb(214, 218, 249);
+    color: rgb(6, 44, 39);
+    font-family: "work-sans", "Helvetica neue", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+.container-padding{
+    padding: 10px;
+}
